@@ -8,15 +8,10 @@ packages = [{include = "trello_python_cfd"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-jq = "^1.4.1"
-gql = "^3.4.1"
 ipykernel = "^6.24.0"
-aiohttp = "^3.8.4"
-glom = "^23.3.0"
+requests = "^2.31.0"
+pandas = "^2.0.3"
 
-
-[tool.poetry.group.dev.dependencies]
-jupyter = "^1.0.0"
 
 [build-system]
 requires = ["poetry-core"]
