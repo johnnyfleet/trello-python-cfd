@@ -11,6 +11,7 @@ python = "^3.11"
 ipykernel = "^6.24.0"
 requests = "^2.31.0"
 pandas = "^2.0.3"
+nbconvert = "^7.6.0"
 
 
 [build-system]
