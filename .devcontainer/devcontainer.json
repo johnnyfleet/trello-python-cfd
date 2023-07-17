@@ -15,7 +15,8 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "poetry config virtualenvs.in-project true && poetry install",
+	// nbconvert is used to strip outputs from a jupyter git commit, avoiding leaking any secrets that are printed.
+	"postCreateCommand": "sudo pip install nbconvert && poetry config virtualenvs.in-project true && poetry install",
 	"customizations": {
 		"vscode": {
 			"extensions": [
