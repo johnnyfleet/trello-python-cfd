@@ -24,7 +24,22 @@
 				"ms-toolsai.jupyter"
 			]
 		}
-	}
+	},
+
+	"secrets": {
+		"TRELLO_USERNAME": {
+		  "description": "The username for the atlassian username for the trello board to be queried.",
+		  "documentationUrl": "https://developer.atlassian.com/platform/atlassian-graphql-api/graphql/#overview"
+		},
+		"TRELLO_GRAPHQL_TOKEN": {
+			"description": "The user token generated for the atlassian user to authenticate to the atlassian graphql endpoint.",
+			"documentationUrl": "https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/"
+		},
+		"TRELLO_REPO_NAME": {
+			"description": "The atlassian subdomain where the board exists - e.g. https://{your-subdomain}.atlassian.net.",
+			"documentationUrl": "https://developer.atlassian.com/platform/atlassian-graphql-api/graphql/#overview"
+	    }
+	  }
 
 	// Configure tool-specific properties.
 	// "customizations": {},
