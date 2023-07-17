@@ -16,7 +16,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// nbconvert is used to strip outputs from a jupyter git commit, avoiding leaking any secrets that are printed.
-	"postCreateCommand": "sudo pip install nbconvert && poetry config virtualenvs.in-project true && poetry install",
+	"postCreateCommand": "git config --local include.path ../.gitconfig && sudo pip install nbconvert && poetry config virtualenvs.in-project true && poetry install",
 	"customizations": {
 		"vscode": {
 			"extensions": [
