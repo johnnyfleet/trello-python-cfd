@@ -695,13 +695,13 @@ test = ["flaky", "ipykernel (>=6.19.3)", "ipython", "ipywidgets", "nbconvert (>=
 
 [[package]]
 name = "nbconvert"
-version = "7.12.0"
+version = "7.14.2"
 description = "Converting Jupyter Notebooks"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "nbconvert-7.12.0-py3-none-any.whl", hash = "sha256:5b6c848194d270cc55fb691169202620d7b52a12fec259508d142ecbe4219310"},
-    {file = "nbconvert-7.12.0.tar.gz", hash = "sha256:b1564bd89f69a74cd6398b0362da94db07aafb991b7857216a766204a71612c0"},
+    {file = "nbconvert-7.14.2-py3-none-any.whl", hash = "sha256:db28590cef90f7faf2ebbc71acd402cbecf13d29176df728c0a9025a49345ea1"},
+    {file = "nbconvert-7.14.2.tar.gz", hash = "sha256:a7f8808fd4e082431673ac538400218dd45efd076fbeb07cc6e5aa5a3a4e949e"},
 ]
 
 [package.dependencies]
@@ -727,7 +727,7 @@ docs = ["ipykernel", "ipython", "myst-parser", "nbsphinx (>=0.2.12)", "pydata-sp
 qtpdf = ["nbconvert[qtpng]"]
 qtpng = ["pyqtwebengine (>=5.15)"]
 serve = ["tornado (>=6.1)"]
-test = ["flaky", "ipykernel", "ipywidgets (>=7)", "pytest"]
+test = ["flaky", "ipykernel", "ipywidgets (>=7.5)", "pytest"]
 webpdf = ["playwright"]
 
 [[package]]
@@ -1530,4 +1530,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "5ee00d0eb11a387c7f0b7d0cd730b1b9c1aea5c9db4e68d137bf49418b48f8d0"
+content-hash = "a43bb40f606baf96498d9126ee53826ec55d997dc81e44bc1912b993b6dd994e"
