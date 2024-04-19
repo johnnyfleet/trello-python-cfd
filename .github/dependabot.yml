@@ -8,6 +8,11 @@ updates:
   - package-ecosystem: "pip" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "daily"
+      interval: "weekly"
+    groups:
+      applies-to: version-updates
+      update-types:
+        - "minor"
+        - "patch"
     assignees:
       - "johnnyfleet"
