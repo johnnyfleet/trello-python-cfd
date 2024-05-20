@@ -9,7 +9,7 @@ packages = [{include = "trello_python_cfd"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 ipykernel = "^6.29.4"
-requests = "^2.31.0"
+requests = "^2.32.0"
 pandas = "^2.2.2"
 nbconvert = "^7.16.1"
 requests-oauthlib = "^2.0.0"
