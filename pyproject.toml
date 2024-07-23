@@ -13,7 +13,7 @@ requests = "^2.32.3"
 pandas = "^2.2.2"
 nbconvert = "^7.16.4"
 requests-oauthlib = "^2.0.0"
-plotly = "^5.22.0"
+plotly = "^5.23.0"
 
 
 [build-system]
