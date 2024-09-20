@@ -10,7 +10,7 @@ packages = [{include = "trello_python_cfd"}]
 python = "^3.11"
 ipykernel = "^6.29.5"
 requests = "^2.32.3"
-pandas = "^2.2.2"
+pandas = "^2.2.3"
 nbconvert = "^7.16.4"
 requests-oauthlib = "^2.0.0"
 plotly = "^5.22.0"
